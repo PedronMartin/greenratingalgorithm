@@ -1,20 +1,15 @@
 from qgis.core import QgsProcessingProvider
 from qgis.PyQt.QtGui import QIcon
-from .algorithm import GreenRatingAlgorithm # Importiamo il nostro algoritmo
+from .algorithm import GreenRatingAlgorithm
 
 class GreenRatingProvider(QgsProcessingProvider):
 
     def __init__(self):
-        """
-        Inizializza il provider.
-        """
         super().__init__()
 
     def loadAlgorithms(self):
-        """
-        Carica gli algoritmi del provider.
-        """
         self.addAlgorithm(GreenRatingAlgorithm())
+        # Aggiungi qui gli altri algoritmi se ne avrai in futuro
 
     def id(self):
         """
@@ -26,10 +21,13 @@ class GreenRatingProvider(QgsProcessingProvider):
         """
         Restituisce il nome del provider per l'interfaccia.
         """
-        return self.tr('Analisi Ambientale Urbana')
+        return self.tr('Analisi Ambientale Urbana: 3-30-300')
 
     def icon(self):
         """
         Restituisce l'icona del provider.
         """
+        # Se hai un'icona personalizzata per il provider, la dichiari qui.
         return QgsProcessingProvider.icon(self)
+        
+    """probabilmente aggiungeremo la possibilità di analizzare una zona geografica sulla base di una sola delle 3 caratteristiche 3-30-300"""

@@ -1,0 +1,10 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/martin/School/Altro/greenratingalgorithm'
+echo While you can use make to build and deploy your plugin, pb_tool
+echo is a much better solution.
+echo A Python script, pb_tool provides platform independent management of
+echo your plugins and runs anywhere.
+echo You can install pb_tool using: pip install pb_tool
+echo See https://g-sherman.github.io/plugin_build_tool/ for info. 
+make: Leaving directory '/home/martin/School/Altro/greenratingalgorithm'
+ 

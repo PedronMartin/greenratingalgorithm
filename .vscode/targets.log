@@ -1,0 +1,511 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.3
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Sat Aug 16 14:50:00 2025
+
+# Variables
+
+# environment
+GDK_BACKEND = x11
+# makefile (from 'Makefile', line 29)
+LOCALES = 
+# environment
+LC_ALL = C
+# makefile (from 'Makefile', line 57)
+PEP8EXCLUDE = pydev,resources.py,conf.py,third_party,ui
+# environment
+VSCODE_CRASH_REPORTER_PROCESS_TYPE = extensionHost
+# environment
+VSCODE_CWD = /home/martin
+# environment
+GDM_LANG = it
+# default
+MAKE_COMMAND := make
+# environment
+GTK3_MODULES = xapp-gtk3-module
+# environment
+QT_ACCESSIBILITY = 1
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# environment
+PWD = /home/martin/School/Altro/greenratingalgorithm
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+XDG_DATA_DIRS = /usr/share/cinnamon:/usr/share/gnome:/home/martin/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_CODE_CACHE_PATH = /home/martin/.config/Code/CachedData/360a4e4fd251bfce169a4ddf857c7d25d1ad40da
+# environment
+XDG_SESSION_PATH = /org/freedesktop/DisplayManager/Session1
+# environment
+LANG = C
+# environment
+XAUTHORITY = /home/martin/.Xauthority
+# default
+.LOADED := 
+# default
+.INCLUDE_DIRS = /usr/local/include /usr/include /usr/include
+# makefile (from 'Makefile', line 68)
+QGISDIR = /home/martin/.local/share/QGIS/QGIS3/profiles/default/python/plugins/
+# makefile (from 'Makefile', line 78)
+RESOURCE_SRC = $(shell grep '^ *<file' resources.qrc | sed 's@</file>@@g;s/.*>//g' | tr '\n' ' ')
+# makefile
+MAKEFLAGS = pqrR
+# makefile
+CURDIR := /home/martin/School/Altro/greenratingalgorithm
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# environment
+LESSOPEN = | /usr/bin/lesspipe %s
+# environment
+VSCODE_L10N_BUNDLE_LOCATION = file:///home/martin/.vscode/extensions/ms-ceintl.vscode-language-pack-it-1.103.2025081309/translations/extensions/vscode.json-language-features.i18n.json
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# makefile (from 'Makefile', line 49)
+UI_FILES = GreenRatingAlgorithm_dialog_base.ui
+# environment
+MFLAGS = -pqrR
+# default
+.SHELLFLAGS := -c
+# makefile (from 'Makefile', line 51)
+EXTRAS = metadata.txt icon.png
+# environment
+XDG_CONFIG_DIRS = /etc/xdg/xdg-cinnamon:/etc/xdg
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+XDG_SESSION_DESKTOP = cinnamon
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST := Makefile
+# automatic
+@F = $(notdir $@)
+# environment
+PT8HOME = /opt/pt
+# environment
+VSCODE_PID = 23569
+# environment
+XDG_SESSION_TYPE = x11
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+SESSION_MANAGER = local/Martin-HP:@/tmp/.ICE-unix/17193,unix/Martin-HP:/tmp/.ICE-unix/17193
+# automatic
+*F = $(notdir $*)
+# makefile (from 'Makefile', line 53)
+EXTRA_DIRS = 
+# environment
+CHROME_DESKTOP = code.desktop
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# environment
+VSCODE_NLS_CONFIG = {"userLocale":"it","osLocale":"it","resolvedLanguage":"it","defaultMessagesFile":"/usr/share/code/resources/app/out/nls.messages.json","languagePack":{"translationsConfigFile":"/home/martin/.config/Code/clp/5ca2564d07be355fd865752fc337ea25.it/tcf.json","messagesFile":"/home/martin/.config/Code/clp/5ca2564d07be355fd865752fc337ea25.it/360a4e4fd251bfce169a4ddf857c7d25d1ad40da/nls.messages.json","corruptMarkerFile":"/home/martin/.config/Code/clp/5ca2564d07be355fd865752fc337ea25.it/corrupted.info"},"locale":"it","availableLanguages":{"*":"it"},"_languagePackId":"5ca2564d07be355fd865752fc337ea25.it","_languagePackSupport":true,"_translationsConfigFile":"/home/martin/.config/Code/clp/5ca2564d07be355fd865752fc337ea25.it/tcf.json","_cacheRoot":"/home/martin/.config/Code/clp/5ca2564d07be355fd865752fc337ea25.it","_resolvedLanguagePackCoreLocation":"/home/martin/.config/Code/clp/5ca2564d07be355fd865752fc337ea25.it/360a4e4fd251bfce169a4ddf857c7d25d1ad40da","_corruptedFile":"/home/martin/.config/Code/clp/5ca2564d07be355fd865752fc337ea25.it/corrupted.info"}
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+GNOME_DESKTOP_SESSION_ID = this-is-deprecated
+# makefile
+SHELL = /bin/sh
+# default
+MAKECMDGOALS := all
+# environment
+SHLVL = 0
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+PATH = /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+# default
+MAKEFILES := 
+# environment
+LANGUAGE = it
+# automatic
+^F = $(notdir $^)
+# makefile (from 'Makefile', line 45)
+PY_FILES = __init__.py GreenRatingAlgorithm.py GreenRatingAlgorithm_dialog.py
+# environment
+APPLICATION_INSIGHTS_NO_STATSBEAT = true
+# makefile (from 'Makefile', line 74)
+HELP = help/build/html
+# environment
+LESSCLOSE = /usr/bin/lesspipe %s %s
+# automatic
+?F = $(notdir $?)
+# environment
+XDG_SEAT = seat0
+# environment
+XDG_CURRENT_DESKTOP = X-Cinnamon
+# automatic
++F = $(notdir $+)
+# environment
+XDG_SEAT_PATH = /org/freedesktop/DisplayManager/Seat0
+# environment
+DESKTOP_SESSION = cinnamon
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = X-Cinnamon
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+LOGNAME = martin
+# environment
+GIO_LAUNCHED_DESKTOP_FILE = /home/martin/Scrivania/code.desktop
+# environment
+XDG_VTNR = 7
+# makefile (from 'Makefile', line 76)
+PLUGIN_UPLOAD = $(c)/plugin_upload.py
+# makefile
+.DEFAULT_GOAL := default
+# environment
+ 
+make: *** No rule to make target 'all'.  Stop.
+
+DISPLAY = :0
+# environment
+USER = martin
+# environment
+GTK_MODULES = gail:atk-bridge
+# default
+MAKE_VERSION := 4.3
+# environment
+GIO_LAUNCHED_DESKTOP_FILE_PID = 23569
+# environment
+_ = /usr/share/code/code
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# makefile (from 'Makefile', line 55)
+COMPILED_RESOURCE_FILES = resources.py
+# environment
+GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
+# environment
+XDG_SESSION_CLASS = user
+# environment
+HOME = /home/martin
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-cca9814d-1.10-main.sock
+# makefile (from 'Makefile', line 43)
+PLUGINNAME = GreenRatingAlgorithm
+# environment
+XDG_SESSION_ID = c3
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# default
+SUFFIXES := 
+# environment
+XDG_GREETER_DATA_DIR = /var/lib/lightdm-data/martin
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink load
+# makefile (from 'Makefile', line 39)
+SOURCES = __init__.py GreenRatingAlgorithm.py GreenRatingAlgorithm_dialog.py
+# environment
+VSCODE_ESM_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+GDMSESSION = cinnamon
+# variable set hash-table stats:
+# Load=103/1024=10%, Rehash=0, Collisions=8/135=6%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 2052, inode 2229389): 21 files, no impossibilities.
+
+# 21 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+%.py: %.qrc
+#  recipe to execute (from 'Makefile', line 92):
+	pyrcc5 -o $*.py  $<
+
+%.qm: %.ts
+#  recipe to execute (from 'Makefile', line 95):
+	$(LRELEASE) $<
+
+# 2 implicit rules, 0 (0.0%) terminal.
+# Files
+
+deploy: compile doc transcompile
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 116):
+	@echo
+	@echo "------------------------------------------"
+	@echo "Deploying plugin to your .qgis2 directory."
+	@echo "------------------------------------------"
+	# The deploy  target only works on unix like operating system where
+	# the Python plugin directory is located at:
+	# $HOME/$(QGISDIR)/python/plugins
+	mkdir -p $(HOME)/$(QGISDIR)/python/plugins/$(PLUGINNAME)
+	cp -vf $(PY_FILES) $(HOME)/$(QGISDIR)/python/plugins/$(PLUGINNAME)
+	cp -vf $(UI_FILES) $(HOME)/$(QGISDIR)/python/plugins/$(PLUGINNAME)
+	cp -vf $(COMPILED_RESOURCE_FILES) $(HOME)/$(QGISDIR)/python/plugins/$(PLUGINNAME)
+	cp -vf $(EXTRAS) $(HOME)/$(QGISDIR)/python/plugins/$(PLUGINNAME)
+	cp -vfr i18n $(HOME)/$(QGISDIR)/python/plugins/$(PLUGINNAME)
+	cp -vfr $(HELP) $(HOME)/$(QGISDIR)/python/plugins/$(PLUGINNAME)/help
+	# Copy extra directories if any
+	(foreach EXTRA_DIR,(EXTRA_DIRS), cp -R (EXTRA_DIR) (HOME)/(QGISDIR)/python/plugins/(PLUGINNAME)/;)
+
+compile: resources.py
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+transup:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 184):
+	@echo
+	@echo "------------------------------------------------"
+	@echo "Updating translation files with any new strings."
+	@echo "------------------------------------------------"
+	@chmod +x scripts/update-strings.sh
+	@scripts/update-strings.sh $(LOCALES)
+
+package: compile
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 163):
+	# Create a zip package of the plugin named $(PLUGINNAME).zip.
+	# This requires use of git (your plugin development directory must be a
+	# git repository).
+	# To use, pass a valid commit or tag as follows:
+	#   make package VERSION=Version_0.3.2
+	@echo
+	@echo "------------------------------------"
+	@echo "Exporting plugin to zip package.	"
+	@echo "------------------------------------"
+	rm -f $(PLUGINNAME).zip
+	git archive --prefix=$(PLUGINNAME)/ -o $(PLUGINNAME).zip $(VERSION)
+	echo "Created package: $(PLUGINNAME).zip"
+
+default:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 82):
+	@echo While you can use make to build and deploy your plugin, pb_tool
+	@echo is a much better solution.
+	@echo A Python script, pb_tool provides platform independent management of
+	@echo your plugins and runs anywhere.
+	@echo You can install pb_tool using: pip install pb_tool
+	@echo See https://g-sherman.github.io/plugin_build_tool/ for info. 
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2025-08-14 11:12:52.9116163
+#  File has been updated.
+#  Successfully updated.
+
+upload: zip
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 177):
+	@echo
+	@echo "-------------------------------------"
+	@echo "Uploading plugin to QGIS Plugin repo."
+	@echo "-------------------------------------"
+	$(PLUGIN_UPLOAD) $(PLUGINNAME).zip
+
+clean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 207):
+	@echo
+	@echo "------------------------------------"
+	@echo "Removing uic and rcc generated files"
+	@echo "------------------------------------"
+	rm $(COMPILED_UI_FILES) $(COMPILED_RESOURCE_FILES)
+
+pylint:
+#  Implicit rule search has not been done.
+ 
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 221):
+	@echo
+	@echo "-----------------"
+	@echo "Pylint violations"
+	@echo "-----------------"
+	@pylint --reports=n --rcfile=pylintrc . || true
+	@echo
+	@echo "----------------------"
+	@echo "If you get a 'no module named qgis.core' error, try sourcing"
+	@echo "the helper script we have provided first then run make pylint."
+	@echo "e.g. source run-env-linux.sh <path to qgis install>; make pylint"
+	@echo "----------------------"
+
+transclean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 200):
+	@echo
+	@echo "------------------------------------"
+	@echo "Removing compiled translation files."
+	@echo "------------------------------------"
+	rm -f i18n/*.qm
+
+dclean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 137):
+	@echo
+	@echo "-----------------------------------"
+	@echo "Removing any compiled python files."
+	@echo "-----------------------------------"
+	find $(HOME)/$(QGISDIR)/python/plugins/$(PLUGINNAME) -iname "*.pyc" -delete
+	find $(HOME)/$(QGISDIR)/python/plugins/$(PLUGINNAME) -iname ".git" -prune -exec rm -Rf {} \;
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+all:
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+doc:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 214):
+	@echo
+	@echo "------------------------------------"
+	@echo "Building documentation using sphinx."
+	@echo "------------------------------------"
+	cd help; make html
+
+zip: deploy dclean
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 153):
+	@echo
+	@echo "---------------------------"
+	@echo "Creating plugin zip bundle."
+	@echo "---------------------------"
+	# The zip target deploys the plugin and creates a zip file with the deployed
+	# content. You can then upload the zip file on http://plugins.qgis.org
+	rm -f $(PLUGINNAME).zip
+	cd $(HOME)/$(QGISDIR)/python/plugins; zip -9r $(CURDIR)/$(PLUGINNAME).zip $(PLUGINNAME)
+
+test: compile transcompile
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 98):
+	@echo
+	@echo "----------------------"
+	@echo "Regression Test Suite"
+	@echo "----------------------"
+	@# Preceding dash means that make will continue in case of errors
+	@-export PYTHONPATH=`pwd`:$(PYTHONPATH); \
+		export QGIS_DEBUG=0; \
+		export QGIS_LOG_FILE=/dev/null; \
+		nosetests -v --with-id --with-coverage --cover-package=. \
+		3>&1 1>&2 2>&3 3>&- || true
+	@echo "----------------------"
+	@echo "If you get a 'no module named qgis.core error, try sourcing"
+	@echo "the helper script we have provided first then run make test."
+	@echo "e.g. source run-env-linux.sh <path to qgis install>; make test"
+	@echo "----------------------"
+
+derase:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 146):
+	@echo
+	@echo "-------------------------"
+	@echo "Removing deployed plugin."
+	@echo "-------------------------"
+	rm -Rf $(HOME)/$(QGISDIR)/python/plugins/$(PLUGINNAME)
+
+# Not a target:
+resources.py:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.PHONY: default
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+transcompile:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 192):
+	@echo
+	@echo "----------------------------------------"
+	@echo "Compiled translation files to .qm files."
+	@echo "----------------------------------------"
+	@chmod +x scripts/compile-strings.sh
+	@scripts/compile-strings.sh $(LRELEASE) $(LOCALES)
+
+pep8:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 237):
+	@echo
+	@echo "-----------"
+	@echo "PEP8 issues"
+	@echo "-----------"
+	@pep8 --repeat --ignore=E203,E121,E122,E123,E124,E125,E126,E127,E128 --exclude $(PEP8EXCLUDE) . || true
+	@echo "-----------"
+	@echo "Ignored in PEP8 check:"
+	@echo $(PEP8EXCLUDE)
+
+# files hash-table stats:
+# Load=22/1024=2%, Rehash=0, Collisions=0/46=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 47 / storage = 456 B / avg = 9 B
+# current buf: size = 8162 B / used = 456 B / count = 47 / avg = 9 B
+
+# strcache performance: lookups = 79 / hit rate = 40%
+# hash-table stats:
+# Load=47/8192=1%, Rehash=0, Collisions=0/79=0%
+# Finished Make data base on Sat Aug 16 14:50:00 2025
+
+ 
