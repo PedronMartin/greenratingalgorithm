@@ -1,4 +1,6 @@
 make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+make: *** No rule to make target 'all'.  Stop.
+
 # GNU Make 4.3
 # Built for x86_64-pc-linux-gnu
 # Copyright (C) 1988-2020 Free Software Foundation, Inc.
@@ -6,7 +8,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sat Aug 16 14:50:00 2025
+# Make data base, printed on Sat Aug 16 16:22:10 2025
 
 # Variables
 
@@ -95,7 +97,7 @@ MAKEFILE_LIST := Makefile
 # environment
 PT8HOME = /opt/pt
 # environment
-VSCODE_PID = 23569
+VSCODE_PID = 27444
 # environment
 XDG_SESSION_TYPE = x11
 # automatic
@@ -171,9 +173,6 @@ PLUGIN_UPLOAD = $(c)/plugin_upload.py
 # makefile
 .DEFAULT_GOAL := default
 # environment
- 
-make: *** No rule to make target 'all'.  Stop.
-
 DISPLAY = :0
 # environment
 USER = martin
@@ -181,8 +180,9 @@ USER = martin
 GTK_MODULES = gail:atk-bridge
 # default
 MAKE_VERSION := 4.3
+ 
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 23569
+GIO_LAUNCHED_DESKTOP_FILE_PID = 27444
 # environment
 _ = /usr/share/code/code
 # environment
@@ -228,7 +228,7 @@ GDMSESSION = cinnamon
 
 # Directories
 
-# . (device 2052, inode 2229389): 21 files, no impossibilities.
+# . (device 2052, inode 2229812): 21 files, no impossibilities.
 
 # 21 files, no impossibilities in 1 directories.
 
@@ -318,7 +318,7 @@ default:
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  Last modified 2025-08-14 11:12:52.9116163
+#  Last modified 2025-08-16 16:17:17.478963973
 #  File has been updated.
 #  Successfully updated.
 
@@ -346,7 +346,6 @@ clean:
 
 pylint:
 #  Implicit rule search has not been done.
- 
 #  Modification time never checked.
 #  File has not been updated.
 #  recipe to execute (from 'Makefile', line 221):
@@ -355,6 +354,7 @@ pylint:
 	@echo "Pylint violations"
 	@echo "-----------------"
 	@pylint --reports=n --rcfile=pylintrc . || true
+ 
 	@echo
 	@echo "----------------------"
 	@echo "If you get a 'no module named qgis.core' error, try sourcing"
@@ -506,6 +506,6 @@ pep8:
 # strcache performance: lookups = 79 / hit rate = 40%
 # hash-table stats:
 # Load=47/8192=1%, Rehash=0, Collisions=0/79=0%
-# Finished Make data base on Sat Aug 16 14:50:00 2025
+# Finished Make data base on Sat Aug 16 16:22:10 2025
 
  
