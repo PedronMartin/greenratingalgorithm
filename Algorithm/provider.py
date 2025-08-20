@@ -1,6 +1,7 @@
 from qgis.core import QgsProcessingProvider
 from qgis.PyQt.QtGui import QIcon
 from .algorithm import GreenRatingAlgorithm
+from .Rules_tree import Rules_3treesperbuilding
 
 class GreenRatingProvider(QgsProcessingProvider):
 
@@ -9,6 +10,7 @@ class GreenRatingProvider(QgsProcessingProvider):
 
     def loadAlgorithms(self):
         self.addAlgorithm(GreenRatingAlgorithm())
+        self.addAlgorithm(Rules_3treesperbuilding())
         # Aggiungi qui gli altri algoritmi se ne avrai in futuro
 
     def id(self):
