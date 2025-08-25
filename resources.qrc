@@ -1,5 +1,0 @@
-<RCC>
-    <qresource prefix="/plugins/GreenRatingAlgorithm" >
-        <file>icon.png</file>
-    </qresource>
-</RCC>
